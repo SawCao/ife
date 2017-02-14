@@ -1,0 +1,36 @@
+#bdiv {
+    position: relative;
+    overflow: hidden;
+    border-style: solid;
+    border-color: mediumvioletred;
+    margin: 5px auto;
+    height: 300px;
+    width: 400px;
+}
+img {
+    position: absolute;
+    display: block;
+    height: 300px;
+    width: 400px;
+}
+#img2, #img3, #img4, #img5 {
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    width: 400px;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    top: 280px;
+    height: 10px;
+    width: 10px;
+    background-color: rebeccapurple;
+    margin-left: 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#btn_img2 {
+    background-color: white;
+}

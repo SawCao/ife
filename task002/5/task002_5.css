@@ -1,0 +1,23 @@
+.con {
+    display: inline-block;
+    height: 500px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 50px;
+}
+.panel-list {
+    list-style: none;
+}
+.panel-item {
+    position: relative;
+    height: 40px;
+    width: 98px;
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+.in {
+    border-style: dashed;
+}
