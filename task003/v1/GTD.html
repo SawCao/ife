@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GTD Tools</title>
+    <script type="text/javascript" src="util.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <link  rel="stylesheet" href="GTD.css">
+</head>
+<body>
+<div id="title">
+    <strong id="title_font">GTD Tools</strong>
+</div>
+<div id="container">
+    <div id="detailed">
+        <div id="taskdetailed">
+            <div id="task_title">
+                <p id="task_name">第一个任务</p>
+                <img id="task_achieve" class="task_operating" src="img/ic_beenhere_black_24dp_2x.png">
+                <img id="task_edit" class="task_operating" src="img/ic_edit_black_24dp_2x.png">
+            </div>
+            <div id="task_time"><p>日期：2014-12-25</p></div>
+            <div id="task_detailed"></div>
+        </div>
+        <div id="taskappend">
+            <input type="text" id="titleinput" name="titleinput" maxlength="12" value="标题">
+            <input type="text" id="datainput" name="datainput" maxlength="10" value="日期，格式为yyyy-mm-dd">
+            <textarea id="ta" rows="3" cols="22" name="detailedinput">内容</textarea>
+            <div style="margin: 2px auto">
+                <input type="submit" id="tasksubmit" name="tasksubmit" value="确认">
+                <input type="submit" id="taskquie" name="taskquie" value="取消">
+            </div>
+        </div>
+    </div>
+    <div id="all_task">
+        <p id="task_num">所有任务</p>
+        <p>分类列表</p>
+        <ul id="task_sort">
+
+        </ul>
+        <div id="add_tasksort" class="add">
+            <p> <img src="img/ic_create_new_folder_black_24dp_1x.png"> 新建分类</p>
+        </div>
+
+</div>
+    <div id="task">
+        <div id="task_status">
+            <div class="status" id="alltask">所有</div>
+            <div class="status" id="achieve">未完成</div>
+            <div class="status" id="unachieve">已完成</div>
+        </div>
+        <ul id="tasksort_time">
+            <li>2017-1-20</li>
+        </ul>
+        <div id="add_task" class="add">
+            <p> <img src="img/ic_create_new_folder_black_24dp_1x.png"> 新建分类</p>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="GTD.js"></script>
+</html>

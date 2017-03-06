@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+#title_font {
+    font-size: 2em;
+}
+#title {
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+}
+#container {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 500px;
+    box-sizing: border-box;
+}
+#all_task {
+    position: relative;
+    float: left;
+    left: -500px;
+    margin-left: -100%;
+    width: 249px;
+    height: 100%;
+    border-right: gray solid 1px;
+    background-color: azure;
+}
+#task {
+    position: relative;
+    float: left;
+    left: -250px;
+    margin-left: -100%;
+    width: 249px;
+    height: 100%;
+    border-right: gray solid 1px;
+    background-color: white;
+}
+#detailed {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#task_sort {
+    padding: 0;
+    list-style-position: inside;
+    list-style-image: url(img/ic_folder_black_24dp_1x.png);
+    position: relative;
+}
+#task_sort li {
+    position: relative;
+    line-height: 25px;
+
+}
+#task_sort li img {
+    display: none;
+    margin-left: 90px;
+ }
+#task_sort li:hover img {
+    display: inline;
+
+}
+#task_sort li ul {
+
+    padding: 0;
+    list-style-position: inside;
+    list-style-image: url(img/ic_folder_open_black_24dp_1x.png);
+}
+#task_sort li ul li{
+    padding-left: 20px;
+}
+.add {
+    position: absolute;
+    height: 44px;
+    width: 249px;
+    left: -1px;
+    bottom: 0;
+    border: gray solid 1px;
+    background-color: azure;
+}
+.add p {
+    margin: 10px;
+    padding-left: 10px;
+}
+#task_status {
+    position: relative;
+    height: 41px;
+    width: 249px;
+    border-bottom: gray solid 1px;
+    background-color: azure;
+}
+.status {
+    display: inline-block;
+    padding: 4px 5px;
+    margin: 4px 5px;
+    background-color: azure;
+    border: solid firebrick 1px;
+}
+.status:active {
+    display: inline-block;
+    padding: 4px 5px;
+    margin: 4px 5px;
+    background-color: white;
+    border: solid firebrick 1px;
+}
+#tasksort_time {
+    margin-top: 0px;
+    padding-left: 15px;
+
+}
+#tasksort_time li {
+    list-style-type: none;
+}
+#tasksort_time li ul li{
+    list-style-image: url(img/ic_insert_drive_file_black_18dp_1x.png);
+}
+#task_title, #task_time {
+    position: relative;
+    height: 60px;
+    border-bottom: gray solid 1px;
+    background-color: azure;
+}
+#task_title p, #task_time p {
+    font-family: 黑体;
+    font-size: 1.3em;
+    line-height: 60px;
+    margin-left: 20px;
+    display: inline;
+
+}
+.task_operating {
+     position: fixed;
+     margin-top: 10px;
+     margin-right: 10px;
+     height: 40px;
+     width: 40px;
+ }
+#task_achieve {
+    left: 90%;
+}
+#task_edit {
+    left: 95%;
+}
+#task_detailed {
+    margin: 10px 20px;
+}
+#taskdetailed {
+
+}
+#taskappend {
+    display: none;
+    margin-top: 50px;
+}
+input {
+    display: block;
+    margin: 3px auto;
+}
+textarea {
+    display: block;
+    margin: 3px auto;
+}
